@@ -1,0 +1,382 @@
+<html>
+<head>
+	<title>Health</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome kit code-->
+  <script src="https://kit.fontawesome.com/4d0a7b137b.js" crossorigin="anonymous"></script>
+
+
+
+<style>
+
+
+	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&display=swap');
+	*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	text-decoration: none;
+	}
+	
+	.banner 
+	{
+	
+	width:100%;
+	height:40vh;
+	background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	background-size:cover;
+	background-position:center;
+	margin-bottom: 10px;
+	}
+	
+	.navlist{ 
+	width: 85%;
+	margin:auto;
+	padding: 2% 6% ;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	
+	.logo
+	{
+	width: 120px;
+	cursor: pointer;
+	}
+	
+	.navlist{ 
+	position: relative;
+	left: 75px;
+	width: 85%;
+	margin:auto;;
+	padding: 35px 0;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	.navlist li{
+	list-style:none;
+	display:inline-block;
+	margin:0 20px;
+	}
+	
+	.navlist li a{
+	color:white;
+	background-color:rgb(24,80,44,0.5);
+	border-radius:2px;
+	padding:8px 25px;
+	font-size:14px;
+	font-family:sans-serif;
+	text-decoration:none;
+	}
+	.navlist li a:hover{
+	background-color:rgb(24,80,44);
+	}
+
+	.footer{
+		padding: 30px;
+		background:rgba(0,0,0,0.8);
+	}
+	.footer h4{
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight:490;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+
+
+	 .content h2{
+	 	color: white;
+	 	padding:10px 10px 30px 10px; 
+	 	
+	 	font-size: 48px;
+	 	color:cadetblue;
+	 	background-color: rgba(0,0,0,0.6);
+
+
+	 }
+
+	 .article{
+	 	text-alig
+	 	justify-content:space-around; 
+	 	
+	 	padding:30px 0 10px 40px;
+	 	margin: 15px;
+	 }
+	 .article h1{
+	 	font-size: 54px;
+	 	padding-left: 120px;
+	 }
+	 .article p{
+	 	font-family: 'PT Serif', serif;
+	 	margin: 28px 53px;
+	 	padding: 5px 70px 10px 70px;
+	 	text-align: justify;
+	 	font-size: 18px;
+	 	color: black;
+	 }
+	 .article button{
+	 	margin-left: 120px;
+	 	margin-top: 25px;
+	 }
+
+	 .section1 {
+	 	font-size: 45px;
+	 	font-family: 'PT Serif', serif;
+	 	justify-content: middle;
+	 	
+	 	; 
+
+	 }
+
+
+	 
+
+	  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  	.main{
+  		background-color: #E8EAF6;
+  		color: #0D47A1;
+  	}
+
+ 
+.footer{
+		padding: 30px;
+		background:#006064;
+		text-align: center;
+		color: white;
+	}
+	.footer h4{
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight:490;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+
+	 blockquote p{
+    padding-left: 30px;
+    font-style: italic;
+    color: #00649D;
+    border-left: 5px solid #00649D;
+	 }
+
+	 .contain1{
+	 
+	 	margin: 30px;
+
+	 }
+	 .col1{
+	 	background-color: #C5CAE9;
+	 border-radius: 10px;
+	
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.6);	
+ 	padding: 20px 40px ;
+	 }
+
+	 .col1 img{
+	 	width: 300px;
+	 	height: 200px;
+	 	float: Left;
+	 	margin-right: 30px;
+	 }
+	 .col1 p{
+	 	color: black;
+	 	padding-left: 80px;
+	 		 	font-size:22 ;
+	 		 	font-family: sans-serif	;
+	 		 	font-weight: 600;
+	 }
+
+	</style>
+
+	
+</head>
+<body>
+	<div class="banner">
+		<div class="navlist">
+		<img src="log-removebg-preview.png" alt="logo" width=20%/>
+			<ul>
+				<li><a href="DUM.html">HOME</a></li>
+				<li><a href="DUM.html#scroll1">OUR WORK</a></li>
+				<li><a href="about us.html">GET INVOLVED</a></li>
+				<li><a href="#scroll1">ABOUT US</a></li>
+			</ul><br>
+			
+		</div>
+
+			<div class="content"><h2> Health!</h2></div>
+	    </div>
+
+	</div>
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ment.png" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="snip.png" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="cancer.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<article class="main">
+	
+<article class="article">
+		<h1 class="head1">We are a global non profit for <br> Improving Public Health</h1>
+
+		<a href="about us.html"><button type="button" class="btn btn-primary">Get Involved</button></a>
+		<p>The word health refers to a state of complete emotional and physical well-being. Healthcare exists to help people maintain this optimal state of health.Well organized preventive and curative health services, good social and economic
+backgrounds and a clean environment are essential for having a healthy society.
+while it is important that people should be free from disease and deformity their
+physical, mental and social well-being are equally important.
+In our previous lessons, we learnt how to improve and maintain our health.
+Now it is time for us to go further and study what is meant by 'total health' and the
+factors that influence it. We will also learn about identifying suitable life styles
+to maintain total health, challenges to currend health conditions and ways of
+overcoming them. This knowledge will help us build a healthy society.</p>
+
+		<p>The state of complete physical, mental and spiritual well-being is called health. Health consists of maintaining the body and taking preventive measures to reduce the possibility of developing various diseases.
+
+Health is the body’s natural functional and metabolic efficiency to adapt to physical and mental changes the body is exposed to.
+
+Having good health helps a person to perform their daily routine in a smooth manner.
+
+Physical health of a person means the body is not affected by any disease whereas mental or social health is characterized by the ability of a person to accomplish various social tasks given to him.</p>
+
+		<p>While some people now embrace a rainbow of possibilities between the familiar pink and blue, others hew even tighter to a biological fundamentalism. Those willing to recognize new forms of gender feel anxious about misgendering others, while those who claim superior access to the truth are prepared to impose that truth upon those who disagree. What’s right—even what’s real—in such circumstances is not always self-evident. Labeling others contrary to how they have labeled themselves is an ethically loaded act, but “woman” remains a useful shorthand for the entanglement of femininity and social status regardless of biology—not as an identity, but as the name for an imagined community that honors the female, enacts the feminine and exceeds the limitations of a sexist society.</p>
+
+		
+	</article>
+
+	<div class="section2">
+			<h1 style="padding-left: 50px; font-size:48; color: #1A237E; border-bottom: 3px solid #1A237E;">Articles</h1>
+			<div class="contain1">
+				<div class="col1">
+					<h1>Cancer</h1>
+					<img src="cancer.jpg">
+					<p>Hearing that you have cancer can be stressful and frightening. Knowing what to expect — from diagnosis to recovery — can empower you and help you take control of your health. This is a general overview of what cancer is, symptoms to watch for, how it's detected, treatments and post-treatment care.</p>
+					<a href="https://www.healthline.com/health/cancer#early-detection"><button type="button" class="btn btn-link">Learn More>></button></a>
+				</div>
+
+				<div class="col1">
+					<h1>HIV</h1>
+					<img src="aids.png">
+					<p>Human immunodeficiency virus (HIV) is the virus, or germ, that causes acquired immune deficiency syndrome (AIDS). Certain behaviors make the risk of getting HIV higher. You can only know if you have the virus by taking an HIV test.</p>
+					<a href="https://www.healthline.com/health/cancer#early-detection"><button type="button" class="btn btn-link">Learn More>></button></a>
+					<br>
+					<br>
+				</div>
+
+				<div class="col1">
+					<h1>STD<h5>Sexually transmitted diseases</h5></h1>
+					<img src="std.png">
+					<p>.A number of sexually transmitted diseases (STDs), including HPV, can affect both your pregnancy and delivery.Sexually transmitted diseases, commonly called STDs, are infections that are spread by having sex with someone who has an STD. Sexually transmitted diseases are passed on from sexual activity that involves the mouth, anus, or vagina.
+					</p>
+					<a href="https://www.healthline.com/health/sexually-transmitted-diseases"><button type="button" class="btn btn-link">Learn More>></button></a>
+				</div>
+
+				<div class="col1">
+					<h1>STD<h5>Sexually transmitted diseases</h5></h1>
+					<img src="std.png">
+					<p>.A number of sexually transmitted diseases (STDs), including HPV, can affect both your pregnancy and delivery.Sexually transmitted diseases, commonly called STDs, are infections that are spread by having sex with someone who has an STD. Sexually transmitted diseases are passed on from sexual activity that involves the mouth, anus, or vagina.
+					</p>
+					<a href="https://www.healthline.com/health/sexually-transmitted-diseases"><button type="button" class="btn btn-link">Learn More>></button></a>
+				</div>
+
+
+				<div class="col1">
+					<h1>STD<h5>Sexually transmitted diseases</h5></h1>
+					<img src="std.png">
+					<p>.A number of sexually transmitted diseases (STDs), including HPV, can affect both your pregnancy and delivery.Sexually transmitted diseases, commonly called STDs, are infections that are spread by having sex with someone who has an STD. Sexually transmitted diseases are passed on from sexual activity that involves the mouth, anus, or vagina.
+					</p>
+					<a href="https://www.healthline.com/health/sexually-transmitted-diseases"><button type="button" class="btn btn-link">Learn More>></button></a>
+				</div>
+
+
+
+
+			</div>
+	</div>
+
+
+
+	
+
+
+	
+	<div class = "footer">
+	<h4>about us<scroll id="scroll2"></scroll></h4>
+	<span><p>We are bunch of Engineering students from Saveetha Engineering College Pursuing Information Technology. If you want to tell us any suggestons Feel Free to contact in our social media</p></span>
+		<div class="icons">
+			<a style="color:cadetblue;" href="https://www.facebook.com/srvasanthan"><i class="fa-brands fa-facebook-square"></i></a>
+			<a href="https://twitter.com/srvasanthan33"><i class="fa-brands fa-twitter-square"></i></a>
+			<a href="https://www.instagram.com/sr_vasan1han/"><i class="fa-brands fa-instagram-square"></i></a>
+			<i class="fa-brands fa-linkedin"></i>
+		</div>	
+
+
+</div>
+</article>
+
+
+
+
+
+
+
+	
+
+</body>
+</html>
+
+
+
+
+	
+
+	
+	    
+	    
+
+	
+
+
+
+

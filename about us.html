@@ -1,0 +1,321 @@
+<html>
+<head>
+	<title>Get Involved</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome kit code-->
+  <script src="https://kit.fontawesome.com/4d0a7b137b.js" crossorigin="anonymous"></script>
+
+
+
+<style>
+
+
+	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&display=swap');
+	*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	text-decoration: none;
+	}
+	
+	.banner 
+	{
+	
+	width:100%;
+	height:40vh;
+	background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	background-size:cover;
+	background-position:center;
+	margin-bottom: 10px;
+	}
+	
+	.navlist{ 
+	width: 85%;
+	margin:auto;
+	padding: 2% 6% ;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	
+	.logo
+	{
+	width: 120px;
+	cursor: pointer;
+	}
+	
+	.navlist{ 
+	position: relative;
+	left: 75px;
+	width: 85%;
+	margin:auto;;
+	padding: 35px 0;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	.navlist li{
+	list-style:none;
+	display:inline-block;
+	margin:0 20px;
+	}
+	
+	.navlist li a{
+	color:white;
+	background-color:rgb(24,80,44,0.5);
+	border-radius:2px;
+	padding:8px 25px;
+	font-size:14px;
+	font-family:sans-serif;
+	text-decoration:none;
+	}
+	.navlist li a:hover{
+	background-color:rgb(24,80,44);
+	}
+
+	.footer{
+		padding: 30px;
+		background:rgba(0,0,0,0.8);
+	}
+	.footer h4{
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight:490;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+
+
+	 .content h2{
+	 	color: white;
+	 	padding:10px 10px 30px 10px; 
+	 	left: 50%;
+	 	
+	 	font-size: 48px;
+	 	color:fuchsia;
+	 	background-color: rgba(0,0,0,0.6);
+
+
+	 }
+
+	
+
+.row{
+		margin-top: 5%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+.footer{
+		padding: 30px;
+		background:rgba(0,0,0,0.8);
+		text-align: center;
+		color: white;
+	}
+	.footer h4{
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight:490;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+
+	 blockquote p{
+    padding-left: 30px;
+    font-style: italic;
+    color: #00649D;
+    border-left: 5px solid #00649D;
+	 }
+
+	 .heading{
+	 	background-color: 	lavender;
+	 }
+
+	 .map {
+	 	width: 80%;
+	 	margin: auto;
+padding: 80px 0;
+
+	 }
+
+	 .map iframe{
+	 	width: 100%;
+	 }
+
+	 .heading h1{
+	 	font-family: 'Montserrat', sans-serif;
+	 	color: fuchsia;
+	 	text-align: center;
+	 	font-weight: 800;
+	 	padding: 30px 30px 0px 30px;
+
+	 }
+	 .contact-us
+	 {
+	 	width: 80%;
+	 	margin: auto;
+	 }
+
+	 .contact-col{
+	 	flex-basis: 48%;
+	 	margin-bottom: 30px;
+
+	 }
+
+	 .contact-col div{
+	 	display: flex;
+	 	align-items: center;
+	 	margin-bottom: 40px;
+
+	 }
+	 .contact-col div i{
+	 	font-size: 28px;
+	 	color:sienna;
+	 	margin: 10px;
+	 	margin-right: 30px;
+	 	
+	 }
+
+	 	 .contact-col div h5{
+	 	 	font-size: 20px;
+	 	 	margin-bottom: 5px;
+	 	 	color: #555;
+	 	 	font-weight: 400;
+	 	 }
+.button{
+	width:200px;
+	padding:15px 0;
+	text-align:center;
+	margin:20px 10px;
+	border-radius:10px;
+	font-weight:bold;
+	border:2px solid mediumseagreen;
+	background:transparent;
+	color:white;
+	cursor:pointer;
+	}
+	.button:hover{
+		border:1px solid mediumaquamarine;
+		background:mediumaquamarine;
+		transition: 1s;
+
+	}
+
+	.contact-col input, .contact-col textarea{
+		width: 100%;
+		padding: 15px;
+		margin-bottom: 17px;
+		outline: none;
+		border: 1px solid #ccc;
+		box-sizing: border-box;	
+	}
+
+
+
+
+
+
+</style>
+
+	
+</head>
+<body>
+	<div class="banner">
+		<div class="navlist">
+		<img src="log-removebg-preview.png" alt="logo" width=20%/>
+			<ul>
+				<li><a href="DUM.html">HOME</a></li>
+				<li><a href="DUM.html#scroll1">OUR WORK</a></li>
+				<li><a href="about us.html">GET INVOLVED</a></li>
+				<li><a href="#scroll2">ABOUT US</a></li>
+			</ul><br>
+			
+		</div>
+
+			<div class="content"><h2>Get Involved</h2></div>
+	    </div>
+
+
+	</div>
+
+	<!--- about us--->
+	<div class="heading">
+		<h1> Contact</h1>
+
+	<section class="map">
+
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15548.51897178216!2d80.0130595441939!3d13.027408826673206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52605c8001b0b3%3A0x17397b086e047e7c!2sSaveetha%20Engineering%20College!5e0!3m2!1sen!2sin!4v1651676499430!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+
+
+		<section class="contact-us">
+			<div class="contact-col">
+				<div>
+					<i class="fa-solid fa-location-dot"></i>
+					<span>
+						<h5>Saveetha Engineering College</h5>
+						<p>Thandalam,Chennai</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa-solid fa-phone"></i>
+					<span>
+						<h5>+91 9003262427</h5>
+					</span>
+				</div> 
+				<div>
+					<i class="fa-solid fa-envelope"></i>
+					<span>
+						<h5>srvasanthan33@gmail.com</h5>
+					</span>
+				</div> 
+				<div class="contact-col">
+					<form action="form-handler.php" method="post">
+						<input type="text" name="name" placeholder="Enter your Name" required>
+						<input type="email" name="email" placeholder="Enter Email address" required>
+						<input type="text" name="subject" placeholder="Enter your Subject" required>
+						<textarea rows="8" name="Message"placeholder="Message"></textarea>
+						<button type="submit" class="button">Send Message</button>
+
+
+
+					</form>
+
+
+				</div>
+
+
+
+			</div>
+		</section>		
+</div>
+
+
+
+	<div class = "footer">
+	<h4>about us<scroll id="scroll2"></scroll></h4>
+	<span><p>We are bunch of Engineering students from Saveetha Engineering College Pursuing Information Technology. If you want to tell us any suggestons Feel Free to contact in our social media</p></span>
+		<div class="icons">
+			<a style="color:cadetblue;" href="https://www.facebook.com/srvasanthan"><i class="fa-brands fa-facebook-square"></i></a>
+			<a href="https://twitter.com/srvasanthan33"><i class="fa-brands fa-twitter-square"></i></a>
+			<a href="https://www.instagram.com/sr_vasan1han/"><i class="fa-brands fa-instagram-square"></i></a>
+			<i class="fa-brands fa-linkedin"></i>
+		</div>	
+
+
+</body>
+</html>
+
+	

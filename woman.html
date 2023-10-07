@@ -1,0 +1,633 @@
+<html>
+<head>
+	<title> woman</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome kit code-->
+  <script src="https://kit.fontawesome.com/4d0a7b137b.js" crossorigin="anonymous"></script>
+
+
+
+<style>
+
+
+	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Serif&display=swap');
+	*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	text-decoration: none;
+	}
+	
+	.banner 
+	{
+	
+	width:100%;
+	height:40vh;
+	background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	background-size:cover;
+	background-position:center;
+	margin-bottom: 10px;
+	}
+	
+	.navlist{ 
+	width: 85%;
+	margin:auto;
+	padding: 2% 6% ;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	
+	.logo
+	{
+	width: 120px;
+	cursor: pointer;
+	}
+	
+	.navlist{ 
+	position: relative;
+	left: 75px;
+	width: 85%;
+	margin:auto;;
+	padding: 35px 0;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	}
+	.navlist li{
+	list-style:none;
+	display:inline-block;
+	margin:0 20px;
+	}
+	
+	.navlist li a{
+	color:white;
+	background-color:rgb(24,80,44,0.5);
+	border-radius:2px;
+	padding:8px 25px;
+	font-size:14px;
+	font-family:sans-serif;
+	text-decoration:none;
+	}
+	.navlist li a:hover{
+	background-color:rgb(24,80,44);
+	}
+
+	.footer{
+		padding: 30px;
+		background:rgba(0,0,0,0.8);
+	}
+	.footer h4{
+		margin-bottom: 25px;
+		margin-top: 20px;
+		font-weight:490;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+	 .content h2{
+	 	color: white;
+	 	padding:10px 10px 30px 10px; 
+	 	
+	 	font-size: 40px;
+	 	color: #ff80b3;
+	 	background-color: rgba(0,0,0,0.6);
+
+
+	 }
+
+	 .article{
+	 	text-align: center;
+	 	justify-content:space-around; 
+	 	background-color:#FEDBD0;
+	 	color: #442c2e;
+	 	border-radius: 5px;
+	 	padding-top: 30px;
+	 	margin: 10px;
+
+	 }
+
+	 .article h1{
+	 	font-family:  'Montserrat', sans-serif;
+
+	 	font-size: ;
+	 	margin: 45px 70px 45px 90px;
+	 	padding-left: 33px;
+	 	border-left: 4px solid #442c2e;
+	 	text-align: left;
+	 	font-weight: 800;
+
+
+	 }
+	 .article p{
+	 	font-family: 'PT Serif', serif;
+	 	margin: 28px 53px;
+	 	padding: 5px 70px 10px 70px;
+	 	text-align: justify;
+	 	font-size: 18px;
+	 }
+
+	 .section1 {
+	 	font-size: 40px;
+	 	font-family: sans-serif;
+	 	justify-content: middle;
+	 	color: #FEDBD0;
+
+	  
+
+	 }
+	 .section1 img{
+	 	padding:20px 30px 0 49px;
+	 	top: 10px;
+	 }
+
+	 	.section2{
+	 		padding-top: 24px;
+	 	}
+	 	.section2{
+	 	color: #FEDBD0;
+
+	 	}
+
+	 .section2 p{
+	 	font-size: 40px;
+	 	font-family:sans-serif;
+	 	justify-content: middle;
+	 	margin:10px 20px 30px 20px;
+	 }
+
+	
+
+	 }
+	 .section2 img{
+	 	padding:20px 50px 0 49px;
+	 	top: 10px
+	 	height:100px;
+	 }
+
+	  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+ .section3{
+  	 background:#FEDBD0;
+  	 border-radius: 10px;
+  	 margin: 10px;
+  	 color:#442C2E;
+
+
+  }
+
+  .section3 img
+	.section3 h1{
+				text-align: center;
+		font-size: 36px;
+		font-weight: 400;
+		padding:20px;
+		left: 20px;
+
+
+	}
+	.section3 p{
+		padding: 20px;
+		  font-family:  sans-serif;
+		  font-size: 18px;
+		  font-weight: 500;
+	}
+
+.section4{
+	text-align: left;
+	padding-top:40px;
+
+	color: #442c2e;
+	margin:80px 0px 40px 30px;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+.section4 h1{
+	font-size: 45px;
+	font-weight: 600;
+}
+
+.section4 h5{
+	font-weight: 100;
+	text-align: left;
+	left: 300px;
+	align-self: center;
+	border-left: 10px solid #442c2e;
+
+}
+.main{
+	background:#442c2e;
+}
+.list1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	padding:20px 150px 10px 70px;
+	font-size: 25px;
+	list-style: square;
+}
+
+.row{
+		margin-top: 5%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+.footer{
+		
+		background:rgba(0,0,0,0.8);
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-weight: 100;
+		
+		margin-top: 80px;
+
+	}
+	.footer h4{
+		
+		font-weight:100;
+		font-family:sans-serif;
+        
+	}
+	.footer p{ color:white;
+	 }
+
+	 .imgban{
+	 	background-color:#442c2e;	
+	 	padding-bottom: 60px;
+
+	 	 }
+
+
+	 .section5 h1{
+	 	color:#FEDBD0;
+	 	margin: 40px 40px 5px 40px;
+	 	border-bottom: 1px solid brown;
+	 	font-family: 'Montserrat', sans-serif;
+	 	font-weight: 900;
+	 	padding: 10px;
+	 }
+
+	 .imgban h4{
+	 	font-weight: 800;
+	 	padding-left: 30px;
+	 	color: #FEDBD0;
+		font-family: 'Montserrat', sans-serif;
+	 	font-size: 18px;
+	}
+
+	 .imgg{
+	 	padding: 50px;
+	 	color:#FEDBD0;
+	 	margin-bottom: 40px;
+	 	font-family:  'Montserrat', sans-serif;
+	 }
+	 .imgg img{
+	 	display: flex;
+		float: left;
+		width: 40%;
+		height:auto;
+		padding: 14px 20px 10px 4px;
+		margin: 20px;
+	}
+	 .imgg p{
+	 	
+	 	font-size: 22px;
+	 	align-content: justify;
+	 	line-height: 45px;
+	 	padding-top: 30px;
+	 }
+
+	 .imgg a{
+	 	text-align: left;
+	 left: 800px;
+	 	bottom: 40px;
+	 	color: mediumvioletred;
+	 	padding: 2px 2px 2px 2px;
+	 	text-decoration: none;
+	 	text-align:justify;
+
+	 }
+
+
+
+	 .section6{
+	 background-color: #;
+	 color:#442c2e;
+
+
+
+
+	 }
+
+	 .section6 h1{
+	 	font-family:  'Montserrat', sans-serif;
+
+	 	font-size: ;
+	 	margin: 45px 70px 45px 90px;
+	 	padding: auto;
+	 	border-left: 4px solid #442c2e;
+	 	text-align: left;
+	 	font-weight: 500;
+	 }
+
+	 .section6 p{
+	 	margin: 45px 99px 45px 90px;
+
+	 }
+
+	 .section6 h4{
+	 	margin-left: 100px;
+	 	font-size: 22px;
+	 	color: maroon;
+	 }
+
+	 .section7{
+	 	margin: 45px 99px 105px 90px;
+	 }
+	 
+	 .section7 p{
+	 	margin: 25px 48px 30px 20px;
+	 	align-content: justify;
+	 	padding: 20px;
+
+	 }
+	 .section7 img{
+	 	padding: 20px;
+	 }
+	 contact {
+	 	color: maroon;
+	 	text-decoration: none;
+
+	 }
+
+
+
+
+
+
+</style>
+
+	
+</head>
+<body>
+	<div class="banner">
+		<div class="navlist">
+		<img src="log-removebg-preview.png" alt="logo" width=20%/>
+			<ul>
+				<li><a href="DUM.html">HOME</a></li>
+				<li><a href="DUM.html#scroll1">OUR WORK</a></li>
+				<li><a href="about us.html">GET INVOLVED</a></li>
+				<li><a href="#scroll2">ABOUT US</a></li>
+			</ul><br>
+			
+		</div>
+
+			<div class="content"><h2> Woman!</h2></div>
+	    </div>
+
+	</div>
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="woman vio.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="women edu.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="woman disc.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<article class="main">
+	
+<article class="article">
+		<h1 class="head1">What Does It Mean to Be a Woman? It's<br> Complicated</h1>
+		<p><b>I</b>n “adult human female,” according to a seemingly common-sense slogan seen on the T-shirts and laptop stickers of those who oppose the idea that transgender women are women. They argue that gender itself is a false ideology masking the truth of biological sex difference. But “woman” is complicated in ways that have little to do with transgender issues. Only the delusional would deny biological differences between people, but only the uninformed can maintain that what the body means, and how it relates to social category, doesn’t vary between cultures and over time.</p>
+
+		<p>The “What is a woman?” question can stretch the bounds and bonds of womanhood in messy yet vital directions—as in the case of Marsha P. Johnson, a feminine gender-nonconforming person who graced the streets of New York City as a self-proclaimed “street transvestite action revolutionary” for decades. She’s now hailed as a transgender icon, but Johnson fits awkwardly with contemporary ideas of trans womanhood, let alone womanhood more generally. She called herself “gay” at a time when the word transgender was not common, and lived as a man from time to time. She used she/her pronouns but thought of herself as a “queen,” not as a “woman,” or even a “transsexual.”</p>
+
+		<p>While some people now embrace a rainbow of possibilities between the familiar pink and blue, others hew even tighter to a biological fundamentalism. Those willing to recognize new forms of gender feel anxious about misgendering others, while those who claim superior access to the truth are prepared to impose that truth upon those who disagree. What’s right—even what’s real—in such circumstances is not always self-evident. Labeling others contrary to how they have labeled themselves is an ethically loaded act, but “woman” remains a useful shorthand for the entanglement of femininity and social status regardless of biology—not as an identity, but as the name for an imagined community that honors the female, enacts the feminine and exceeds the limitations of a sexist society.</p>
+
+		
+	</article>
+
+	
+
+
+
+
+
+
+
+
+
+	<div class="section1">
+
+		<img style="float: left;"  src="https://upload.wikimedia.org/wikipedia/commons/0/08/Shinz%C5%8D_Abe_and_Malala_Yousafzai_%281%29_Cropped.jpg">
+		<p>“Our men think earning money and ordering around others is where power lies They don't think power is in the hands of the woman, who takes care of everyone all day long, and gives birth to their children.</p>
+	</div>
+
+	<div class="section2">
+
+		<img style="float: right;"  src="https://upload.wikimedia.org/wikipedia/commons/4/47/Greta_Thunberg_urges_MEPs_to_show_climate_leadership_%2849618310531%29_%28cropped%29.jpg" width=30%s height=300px >
+		<p>"You have stolen my dreams and my childhood with your empty words. And yet I’m one of the lucky ones. People are suffering. People are dying. Entire ecosystems are collapsing. We are in the beginning of a mass extinction, and all you can talk about is money and fairy tales of eternal economic growth. How dare you!”</p>
+	</div>
+
+	<div class="section3">
+		<h1>Did you know any one of these women?</h1>
+		<h2>Its <a href="https://malala.org/malalas-story" >Malala Yosufzai</a> and <a href="https://youtu.be/KAJsdgTPJpU">Greta Thunberg</a></h2>
+		<p>Malala is a Pakistani woman who fought for woman's education rights,For that she also won a nobel prize for peace.She loved school. But everything changed when the Taliban took control of our town in Swat Valley. The extremists banned many things — like owning a television and playing music — and enforced harsh punishments for those who defied their orders. And they said girls could no longer go to school.</p>
+
+		<p>In October 2012, on her way home from school, a masked gunman boarded my school bus and asked, “Who is Malala?” He shot me on the left side of malala's head.She woke up 10 days later in a hospital in Birmingham, England. The doctors and nurses told her about the attack — and that people around the world were praying for her recovery.</p>
+
+		<p> Hear her Wonderful speech in UN Conference</p>
+		<iframe style="padding:30px;" width="560" height="315" src="https://www.youtube.com/embed/5SClmL43dTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+
+			<div class="row">
+				
+			</div>
+
+	</div>
+</article>
+	<div class="section4">
+		<h1>Gender Based Violence</h1>
+		<h2>Women and Girls at risk</h2>
+
+	</div>	
+		<div class="imggg"><img src="https://www.unwomen.org/sites/default/files/2022-03/vaw-hero_0.JPG" width=100% height=500vh></div>
+
+
+	<div class="section4">
+	<h5><i>Gender-based violence, already a global crisis before the pandemic, has intensified since the outbreak of COVID-19. Lockdowns and other mobility restrictions have left many women trapped with their abusers, isolated from social contact and support networks. Increased economic precarity has further limited many women’s ability to leave abusive situations. COVID-driven economic and social instability will also heighten the risk of child marriage, female genital mutilation and human trafficking. At the same time, the pandemic has exposed women leaders to backlash, leading to threats, abuse and harassment both online and offline. Violence against women leaders can prevent them from carrying out their duties regardless of the position they hold.</i></h5>
+	</div>	
+	<div class="section4">
+		<h1> What can governments do?</h1>
+	</div>
+	<p>
+		<ul class="list1">
+			<li>Increase resources for shelters, hotlines and other services so that they can meet heightened demand.</li>
+			<li>Protect elected and non-elected women leaders from gender-based violence. Any efforts to protect and combat violence against women in politics must consider women in all their public roles, including women civil servants and experts.</li>
+			<li>Make information and communication channels accessible for women with disabilities.
+			Scale up public awareness campaigns, particularly those targeted at men and boys.</li>
+			<li>Increase funding to women’s organizations. Evidence shows that the strength of women’s organizations is one of the biggest factors in driving positive EVAW policy changes.</li>
+		</ul>
+	
+	</p>
+
+	<div class="section5">
+		<div class="imgban">
+			<h1>Meet your Local Superheroes</h1>
+			<h4>If you Find any Violence, Injustice, Discrimination against Women or you want to tell about any Grievances about These Issues contact these below Local woman activists and Officials .</h4>
+				<div class="imgg">
+					<h2>Priya Rajan</h2>
+					<img src="priya_rajan.png">
+					<p>Priya Rajan, 28-year-old MCom graduate, set to be Chennai’s first Dalit woman mayor.The post is considered very significant in the history of Tamil Nadu politics,Priya’s interest in politics was her father R Rajan, a ward-level DMK functionary, and her grandfather, Chengai Shivam, a late former DMK MLA. During her campaign, Priya said that after becoming the mayor, solving the problem of waterlogging is her top priority.</p>
+					<i class="fa-solid fa-envelope"></i> <a href="@chennaicorporation.gov.in">commissioner@chennaicorporation.gov.in</a><br>
+					<i class="fa-solid fa-phone"></i>-25619200 / 044-25381330
+				</div>
+
+					
+
+
+
+
+					<div class="imgg">
+							<h2>Anita Dube</h2>
+							<img src="anidubeedit.png">
+							<p>Thahira is a multitasker. In-charge of the Computer Wing of the State Crime Records Bureau, Thahira has also been helping missing people reconnect with their families. Ever since the ADGP Seema Agarwal initiated the reunion drive,  Thahira has been  working relentlessly with NGOs and police stations to unite mentally unsound people with their families. It is her sensitivity and efficiency that has made Thahira, the apt person for the task.</p>
+							<i class="fa-solid fa-newspaper"></i><a href="https://timesofindia.indiatimes.com/city/kochi/anita-dube-reveals-her-unique-contaminated-vision-for-kochi-biennale-2018/articleshow/59398490.cms">Anita Dube reveals her unique 'contaminated' vision</a>
+					</div>
+
+					<div class="imgg">
+							<h2>Adv Santhakumari</h2>
+							<img src="Screenshot 2022-05-07 210248.png">
+							<p style="line-height: 40px;">Santhakumari, an advocate, was unanimously elected president of the All India Federation of Women Lawyers at the association's santhakumari lawyer.She is one of the Founder members of AIFWL and also the Founder President of Tamil Nadu Federation of Women Lawyers. She is  presently Vice President of International Federation of Women Lawyers – FIDA. She, as the President of TNFWL with the cooperation of Office Bearers of her team, had conducted a National Conference at Chennai in the year 2012 wherein the CJI inaugurated the conference. A Regional Conference on Rights of girl child was conducted at Chennai. </p>
+							<i class="fa-solid fa-phone"></i> 93448 49550 | 93445 71074<BR>
+							<i class="fa-solid fa-file-video"></i><a href="https://youtu.be/o3sALbcFKVU">Watch Advocate santhakumari speech about woman Empowerment</a>
+					</div>
+
+
+
+					<div class="imgg">
+							<h2>A S Thahira</h2>
+							<img src="IMG-20180306-WA0008.jpg">
+							<p>Thahira is a multitasker. In-charge of the Computer Wing of the State Crime Records Bureau, Thahira has also been helping missing people reconnect with their families. Ever since the ADGP Seema Agarwal initiated the reunion drive,  Thahira has been  working relentlessly with NGOs and police stations to unite mentally unsound people with their families. It is her sensitivity and efficiency that has made Thahira, the apt person for the task.</p>
+							<i class="fa-solid fa-envelope"></i> <a href="@chennaicorporation.gov.in">commissioner@chennaicorporation.gov.in</a><br>
+							<i class="fa-solid fa-phone"></i>-25619200 / 044-25381330
+					</div>
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+		<div id="skipp"></div>
+			
+
+
+	</div>
+
+
+	<div class="section6">
+		<h1>Simple, Effective Ways to<br> Take Back Feminism</h1>
+		<h4>(Adapted from.Ellevatenetwork.com)</h4>
+
+		<p>Feminism. As powerful as this buzzword sounds, many people who are gravely unaware of its actual connotations have attached a stigma to it and belittled it. Before delving into the topic any further, I will take a few moments to dispel any myths and common misconceptions associated with this word. Here is the literal definition of this new f-word;</p>
+
+		<p><b>Make use of social/print and electronic media.</b>Highlight the issue in hand and help people understand it better by writing blogs, sharing articles, or perhaps by doing live videos with meaningful messages; even tweeting hashtags of popular movements that support the theme is a perfectly acceptable way to show your support.</p>
+
+		<p><b>Call out inequality.</b>Even small acts of resistance can make a difference. According to Samantha Rennie, Executive Director at Rosa; “People must be held accountable for their thoughts and their actions, so when you see acts of sexism, racism, xenophobia, ableism, Islamophobia or anything else, call it out!" Sometimes people do not realize what’s wrong until someone points it out, so don’t hesitate to point out and raise awareness in suitable ways.</p>
+
+		<p><b>Support non-profit organizations working for women.</b>Many women have fought to give us what we today enjoy as basic rights. Women are more empowered, confident and bold than they ever were and this didn’t happen overnight; there have been people responsible for getting us here. However, in many parts of the world, women are still being abused, traded, mutilated and deprived of education. Also, being part of an organized support gives you a proper platform not only for championing your support but also connecting with like-minded individuals.</p>
+		<div class="section7">
+		<img style =" margin: ;float: left; margin-bottom: 100px;" src="hira_interview_4.jpg"><h3>Hira Ali</h3>
+			<p>Hira Ali is a Leadership Trainer, Motivational Speaker, Writer, Executive Career Coach & Licensed NLP Practitioner. She is the founder of Advancing Your Potential and Revitalize & Rise. Over the past decade she has had the privilege of training & coaching hundreds of people belonging to various professions, cadres, ethnicities and across a wide range of industries with a 98% above average rating review. From teachers to students, from corporates to police officials, from business owners to students</p>
+			<p><i class="fa-solid fa-envelope"></i><a href="https://www.ellevatenetwork.com/articles/8200-6-simple-effective-ways-to-take-back-feminism#join"><contact>Contact her</contact></a></p>
+		</div>
+	</div>
+
+
+	
+
+
+	<div class = "footer">
+	<h4>about us<scroll id="scroll2"></scroll></h4>
+	<span><p>We are bunch of Engineering students from Saveetha Engineering College Pursuing Information Technology. If you want to tell us any suggestons Feel Free to contact in our social media</p></span>
+		<div class="icons">
+			<a style="color:cadetblue;" href="https://www.facebook.com/srvasanthan"><i class="fa-brands fa-facebook-square"></i></a>
+			<a href="https://twitter.com/srvasanthan33"><i class="fa-brands fa-twitter-square"></i></a>
+			<a href="https://www.instagram.com/sr_vasan1han/"><i class="fa-brands fa-instagram-square"></i></a>
+			<i class="fa-brands fa-linkedin"></i>
+		</div>	
+
+
+</div>
+</div>
+
+
+
+
+
+
+	
+
+</body>
+</html>
+
+
+
+
+	
+
+	
+	    
+	    
+
+	
+
+
+
+
